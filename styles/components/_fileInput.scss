@@ -1,0 +1,36 @@
+[type="file"] {
+    height: 0.1px;
+    width: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+[type="file"] + label {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 26%;
+    overflow: hidden;
+    padding: 9px 20px;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background: var(--green--green_-1);
+    box-shadow: 0px 2.88892px 14px rgba(6, 17, 38, 0.33), 0px 2.88892px 2.88892px rgba(6, 17, 38, 0.27),
+        0px 0.361116px 0.722231px rgba(0, 0, 0, 0.2), 0px 7.22231px 12.2779px rgba(0, 0, 0, 0.2),
+        inset 0px 1.08335px 0.361116px rgba(255, 255, 255, 0.5);
+    border-radius: 8.66677px;
+}
+
+[type="file"] + label span {
+    color: var(--white--white);
+    margin-left: 1rem;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+}
